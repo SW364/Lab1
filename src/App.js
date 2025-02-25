@@ -1,15 +1,14 @@
 import './App.css'
+import { AppCounter } from './AppCounter'
 import { MyApp } from './MyApp'
-import { Primer } from './Primer'
-import { Segundo } from './Segundo'
-import { Tercer } from './Tercer'
+import { SimpleForm } from './SimpleForm'
+
 
 function App() {
   return (
     <>
-      <Primer />
-      <Segundo />
-      <Tercer />
+      <AppCounter />
+      <SimpleForm />
     </>
   )
 }
